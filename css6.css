@@ -1,0 +1,144 @@
+.entry-content h3 {
+    padding-bottom: .3rem;
+    border-bottom: 1px solid rgba(0,0,0,.1);
+    color: #f00a71;
+}
+
+
+.entry-content h2 {
+    padding-bottom: .3rem;
+    border-bottom: 1px solid rgba(0,0,0,.1);
+    color: #f00a71;
+}
+
+
+.wrapper {
+    background-color: #fff;
+}
+
+.post-title {
+    color: #000000;
+    background: rgba(51,51,51,0.1);
+    padding: 6px;
+}
+
+.post-breadcrumb {
+    margin: 0 0 10px;
+}
+.post-breadcrumb {
+    color: #ECEBEB;
+}
+
+
+
+.post-breadcrumb a {
+    color: #ECEBEB;
+    padding-left: 15px;
+}
+
+
+.isa_info, .isa_success, .isa_warning, .isa_error {
+margin: 10px 0px;
+padding:12px;
+ 
+}
+.isa_info {
+    color: #00529B;
+    background-color: #BDE5F8;
+}
+.isa_success {
+    color: #4F8A10;
+    background-color: #DFF2BF;
+}
+.isa_warning {
+    color: #9F6000;
+    background-color: #FEEFB3;
+}
+.isa_error {
+    color: #D8000C;
+    background-color: #FFD2D2;
+}
+.isa_info i, .isa_success i, .isa_warning i, .isa_error i {
+    margin:10px 22px;
+    font-size:2em;
+    vertical-align:middle;
+}
+
+
+
+
+
+
+.my-notify-info, .my-notify-success, .my-notify-warning, .my-notify-error {
+    padding:10px;
+    margin:10px 0;
+ 
+}
+.my-notify-info:before, .my-notify-success:before, .my-notify-warning:before, .my-notify-
+
+error:before {
+    font-family:FontAwesome;
+    font-style:normal;
+    font-weight:400;
+    speak:none;
+    display:inline-block;
+    text-decoration:inherit;
+    width:1em;
+    margin-right:.2em;
+    text-align:center;
+    font-variant:normal;
+    text-transform:none;
+    line-height:1em;
+    margin-left:.2em;
+    -webkit-font-smoothing:antialiased;
+    -moz-osx-font-smoothing:grayscale
+}
+.my-notify-info:before {
+    content:"\f05a";
+}
+.my-notify-success:before {
+    content:'\f00c';
+}
+.my-notify-warning:before {
+    content:'\f071';
+}
+.my-notify-error:before {
+    content:'\f057';
+}
+.my-notify-info {
+    color: #00529B;
+    background-color: #BDE5F8;
+}
+.my-notify-success {
+    color: #4F8A10;
+    background-color: #DFF2BF;
+}
+.my-notify-warning {
+    color: #9F6000;
+    background-color: #FEEFB3;
+}
+.my-notify-error {
+    color: #D8000C;
+    background-color: #FFD2D2;
+}
+
+
+.w3-panel {
+padding: 0.01em 16px;
+margin-top: 16px!important;
+margin-bottom: 16px!important;
+}
+.w3-note {
+background-color: #ffffcc;
+border-left: 6px solid #ffeb3b;
+}.post-outer {
+border: 1px solid rgba(0,0,0,.1);
+}
+.danger {
+background-color: #c7f0fd;
+border-left: 7px solid #1ea9d4;
+padding: 12px;
+}
+.danger a {
+color:#fa6644;
+}
