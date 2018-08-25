@@ -15,15 +15,6 @@
 
 
 
-
-
-
-
-
-
-
-
-
 .isa_info, .isa_success, .isa_warning, .isa_error {
 margin: 10px 0px;
 padding:12px;
@@ -118,8 +109,6 @@ margin-bottom: 16px!important;
 .w3-note {
 background-color: #ffffcc;
 border-left: 6px solid #ffeb3b;
-}.post-outer {
-border: 1px solid rgba(0,0,0,.1);
 }
 .danger {
 background-color: #c7f0fd;
