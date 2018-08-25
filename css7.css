@@ -7,7 +7,11 @@
 
 .blog-posts{
     background-color: #ffffff;
-        padding: 0px 10px 0px 10px;
+        padding: 5px 10px 5px 10px;
+}
+
+.post-feature-image-wrapper img{
+    max-height: 400px;
 }
 
 
