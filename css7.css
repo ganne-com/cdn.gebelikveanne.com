@@ -1,3 +1,17 @@
+/*------------------------------------------------------------------
+[CSS Kod indeksi-onemli]
+1. wrapper: padding değerini temadan sil
+2. Üst Alan / #ustAlan
+2.1. Menü / #menu
+3. İçerik Alanı / #icerik
+3.1. Sol Kolon / #solKolon
+3.2. Sidebar / #yanKolon
+3.2.1. RSS / #rss
+3.2.2. Arama / #arama
+3.2.3. Kutular / .kutu
+4. Alt Alan / #altAlan
+-------------------------------------------------------------------*/
+
 .wrapper {
 	padding: 1px 1px 1px 1px;
 	border: 1px solid rgba(197,200,222,.5);
