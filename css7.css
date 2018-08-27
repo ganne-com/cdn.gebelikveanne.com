@@ -1,5 +1,7 @@
 .wrapper {
 	padding: 1px 1px 1px 1px;
+	border: 1px solid rgba(197,200,222,.5);
+}
 
 }
 .entry-content h3 {
