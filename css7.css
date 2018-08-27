@@ -48,14 +48,23 @@
         padding: 0px 1px 0px 1px;
 }
 	
-	
-	
+
 .post-body h2, .post-body h3, .post-body h4 {
         font-weight: bold;
-    	 font-size: 17px;
+    	 font-size: 18px;
 	color: #9e1c41;
     }
 
+.post-breadcrumb {
+display: none;
+}	
+	
+.post-meta-wrapper{
+display: none;
+}	
+	
+	
+	
 	
 	
                }
