@@ -40,7 +40,12 @@
 }
 
 
-
+.h1.post-title{
+        padding: 0px 10px 0px 10px;
+	
+    border-bottom: 1px solid #ddd;
+   
+}
 
 
 @media only screen and (max-width : 499px) { 
