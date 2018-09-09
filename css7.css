@@ -11,6 +11,12 @@
 3.2.3. Kutular / .kutu
 4. Alt Alan / #altAlan
 -------------------------------------------------------------------*/
+
+
+.top-bar {
+   margin: 0px 20px 0px 20px;
+}
+
 #header {
    background-color: #ffffff;
 }
