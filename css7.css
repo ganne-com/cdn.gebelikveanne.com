@@ -11,6 +11,10 @@
 3.2.3. Kutular / .kutu
 4. Alt Alan / #altAlan
 -------------------------------------------------------------------*/
+#header {
+   background-color: #ffffff;
+}
+
 
 .post-body-inner {
     color: #2c3e50;
