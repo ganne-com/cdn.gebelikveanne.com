@@ -14,12 +14,12 @@
 
 
 #header{
-    overflow: hidden;
+   
     box-shadow: 0 0 5px #bbb;
     position: relative;
 }
 .blog-posts {
-    overflow: hidden;
+   
     box-shadow: 0 0 5px #bbb;
     position: relative;
 }
