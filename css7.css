@@ -32,7 +32,11 @@
 }
 
 }
-
+.entry-content h3 {
+    padding-bottom: .3rem;
+    border-bottom: 1px solid rgba(0,0,0,.1);
+    color: #9e1c41;
+}
 
 
 .blog-posts{
@@ -98,11 +102,7 @@ display: none;
 
 
 
-.entry-content h3 {
-    padding-bottom: .3rem;
-    border-bottom: 1px solid rgba(0,0,0,.1);
-    color: #9e1c41;
-}
+
 
 .entry-content h2 {
     padding-bottom: .3rem;
