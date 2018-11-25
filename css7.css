@@ -13,13 +13,8 @@
 -------------------------------------------------------------------*/
 
 
-#sidebar {
-    overflow: hidden;
-    box-shadow: 0 0 5px #bbb;
-    position: relative;
-}
 
-#content-section-2 {
+#1content-section-2 {
     overflow: hidden;
     box-shadow: 0 0 5px #bbb;
     position: relative;
