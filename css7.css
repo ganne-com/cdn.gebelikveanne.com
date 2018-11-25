@@ -15,6 +15,13 @@
 
 
 
+.blog-posts hfeed {
+    overflow: hidden;
+    box-shadow: 0 0 5px #bbb;
+    position: relative;
+}
+
+
 
 .post-body-inner {
     color: #2c3e50;
