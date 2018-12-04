@@ -76,6 +76,11 @@ h1.post-title{
  .post-body-inner{
         padding: 0px 1px 0px 1px;
 }
+
+.mobil-320{
+    margin:15px 0!important;
+    text-align: center!important;      
+}	
 	
 
 .post-body h2, .post-body h3, .post-body h4 {
@@ -103,10 +108,7 @@ display: none;
 }	
 	
 	
-.mobil-320{
-    margin: auto;
-      
-}
+
 	
 	
   }
