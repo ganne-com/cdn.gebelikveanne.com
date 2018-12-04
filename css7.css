@@ -13,6 +13,14 @@
 -------------------------------------------------------------------*/
 
 
+.mobil-320{display:none}
+
+@media only screen and (max-width:500px){
+.mobil-320{displaylock}
+}
+
+
+
 #header{
    
     box-shadow: 0 0 5px #bbb;
@@ -77,11 +85,7 @@ h1.post-title{
         padding: 0px 1px 0px 1px;
 }
 
-.mobil-320{
-    margin:15px 0!important;
-    text-align: center!important;      
-}	
-	
+
 
 .post-body h2, .post-body h3, .post-body h4 {
         font-weight: bold;
