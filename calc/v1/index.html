@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Calculadora de embarazo</title>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300' rel='stylesheet' type='text/css'>
+
+    <script src="js/jquery_ui.js"></script>
+    <link rel="stylesheet" href="css/jquery_ui.css">
+    <link rel="stylesheet" href="css/main.css">
+
+</head>
+
+<body>
+
+    <div class="container text-center">
+        <div class="row-fluid">
+            <div id="mainwrapper">
+                <div class="col-xs-9aa">
+
+                    <div id="datepicker-container">
+                        <div id="datepicker-center">
+                            <div id="datepicker"></div>
+                        </div>
+                    </div>
+
+                    <button type="button" class="btn btn-info">Hesapla !</button>
+
+                    <div class="panel panel-success">
+                        <div class="panel-heading">Gebeliğiniz Hakkında !!!</div>
+                        <!--Status-->
+                        <div class="panel-body statusli"><p class="negro status"></p></div>
+                        <!--Status-->
+                    </div>
+
+                    <ul class="list-group">
+                        <li class="list-group-item recommendationli">
+                            <!--Recommendation-->
+                            <p class="recommendation" class="negro"></p>
+                            <!--Recommendation-->
+                        </li>
+                        <li class="list-group-item fppli">
+                            <!--Fecha probable de parto-->
+                            <p class="negro fpp"></p>
+                            <!--Fecha probable de parto-->
+                        </li>
+                        <li class="list-group-item pgbarli">
+                            <!--Progress bar-->
+                            <div class="pgbar-container">
+                              <div class="pgbar">
+                                <div class="pgbartext"></div>
+                            </div>
+                            <!--Progress bar-->
+                        </li>
+                        <li class="list-group-item actualstateli">
+                            <!--Cuanto pasó + Cuanto falta-->
+                            <p class="negro actualstate"></p>
+                            <!--Cuanto pasó + Cuanto falta-->
+                        </li>
+                        <li class="list-group-item actualmonthli">
+                            <!--Mes-->
+                            <p class="negro actualmonth"></p>
+                            <!--Mes-->
+                        </li>
+                        <li class="list-group-item actualtrimesterli">
+                            <!--Trimestre-->
+                            <p class="negro actualtrimester"></p>
+                            <!--Trimestre-->
+                        </li>
+                    </ul>
+
+                </div><!-- col-lg-7 -->
+
+
+   
+        </div><!-- main-wrapper -->
+    </div><!-- row-fluid -->
+
+    <script src="bundle.js"></script>
+
+</body>
+
+</html>
