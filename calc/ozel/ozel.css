@@ -1,0 +1,13 @@
+@media (max-width:800px) { 
+.post-outer {
+    border: 0px solid rgba(0,0,0,.1);
+}
+    
+ .post-body-inner {
+    padding: 2px;
+}
+    
+    
+    
+    
+}
