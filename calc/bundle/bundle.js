@@ -293,11 +293,11 @@ function writeStatus(w, d){
 	        if (w == 40){
 	            return ("Tebrikler hamilesiniz " + w + " semanas.");
 	        }else{
-	            return ("Tebrikler hamilesiniz. " + w + " haftalık. (Gebelik haftanız:  " + (w+1) + ")");
+	            return ("Tebrikler " + w + " haftalık hamilesiniz. (Gebelik haftanız:  " + (w+1) + ")");
 	        }
 	    }
 	    else{
-	        return("Tebrikler hamilesiniz.. " + w + " haftalık y " + d + " günlük. (Gebelik haftanız: " + (w+1) + ")");
+	        return("Tebrikler " + w + " haftalık  " + d + " günlük hamilesiniz. (Gebelik haftanız: " + (w+1) + ")");
 	    }
 	}
 
