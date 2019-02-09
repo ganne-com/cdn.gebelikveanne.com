@@ -364,7 +364,7 @@ function writeStatus(w, d){
 	var cw = __webpack_require__(6);
 
 	function born(recommend, recommendli, w, d){
-                recommend.innerHTML("ilgili metin. <a href='https://www.gebelikveanne.com/p/gebelik-hesaplama.html'>link</a>");
+                recommend.innerHTML('ilgili metin. <a href='https://www.gebelikveanne.com/p/gebelik-hesaplama.html'>link</a>');
 		recommendli.show();
 	}
 
