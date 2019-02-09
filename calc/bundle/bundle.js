@@ -363,10 +363,11 @@ function writeStatus(w, d){
 
 	var cw = __webpack_require__(6);
 
-	function born(recommend, recommendli, w, d){
-                recommend.innerHTML('ilgili metin. <a href='https://www.gebelikveanne.com/p/gebelik-hesaplama.html'>link</a>');
-		recommendli.show();
+function born(recommend, recommendli, w, d){
+	    recommend.text('40 Haftanız doldu. Muhtemelen doğum yapmış olmalısınız. Umarız bebeğinizle ilgili her şey yolunda gitti ve çok mutlusunuz!');
+	    recommendli.show();
 	}
+
 
 	function lastday(recommend, recommendli, w, d){
 	    recommend.text('Buğün hamileliğinizin son günü olabilir. Sakin olmanızı ve 40. haftanın bilgilerini okumanızı öneririz.');
