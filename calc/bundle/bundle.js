@@ -291,7 +291,7 @@
 function writeStatus(w, d){
 	    if (d == 0){
 	        if (w == 40){
-	            return ("Estás embarazada de " + w + " semanas.");
+	            return ("TEBRİKLER! " + w +  "haftalık hamilesiniz."   " semanas.");
 	        }else{
 	            return ("Estás embarazada de " + w + " semanas. (Semana " + (w+1) + ")");
 	        }
