@@ -61,7 +61,7 @@
 
 	        //cache DOM variables
 	        var ztargetlist = $('.week-list-calculator');
-	        var zmw = $('#mainwrapper'); //Dom search (only once)
+	        var zmw = $('#cmainwrapper'); //Dom search (only once)
 
 	        var zdpicker = zmw.find('#datepicker');
 
