@@ -61,7 +61,7 @@
 
 	        //cache DOM variables
 	        var ztargetlist = $('.week-list-calculator');
-	        var zmw = $('#cmainwrapper'); //Dom search (only once)
+	        var zmw = $('#mainwrapper'); //Dom search (only once)
 
 	        var zdpicker = zmw.find('#datepicker');
 
@@ -291,16 +291,15 @@
 	function writeStatus(w, d){
 	    if (d == 0){
 	        if (w == 40){
-	            return ("TEBRİKLER! " + w + " Haftalık Hamilesiniz. " " semanas.");
+	            return ("Tebrikler! " + w + " Haftalık Hamilesiniz. ");
 	        }else{
-	            return ("Estás embarazada de " + w + " semanas. (Semana " + (w+1) + ")");
+	            return ("Tebrikler!! " + w + "  Hafta 0 Günlük gebesiniz. ");
 	        }
 	    }
 	    else{
-	        return("Estás embarazada de " + w + " semanas y " + d + " días. (Semana " + (w+1) + ")");
+	        return("Tebrikler!  " + w + " Hafta  " + d + " Günlük gebesiniz. ");
 	    }
 	}
-
 
 	function _render(status, statusli, w, d){
 	    status.text(writeStatus(w,d));
