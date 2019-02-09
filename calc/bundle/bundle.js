@@ -297,7 +297,7 @@ function writeStatus(w, d){
 	        }
 	    }
 	    else{
-	        return("Tebrikler " + w + " haftalık  " + d + " günlük hamilesiniz. (Gebelik haftanız: " + (w+1) + ")");
+	        return("Tebrikler " + w + " hafta  " + d + " günlük hamilesiniz. (Gebelik haftanız: " + (w+1) + ")");
 	    }
 	}
 
