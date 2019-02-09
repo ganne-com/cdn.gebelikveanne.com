@@ -291,15 +291,16 @@
 	function writeStatus(w, d){
 	    if (d == 0){
 	        if (w == 40){
-	            return ("Tebrikler! " + w + " Haftalık Hamilesiniz. ");
+	            return ("TEBRİKLER! " + w + " Haftalık Hamilesiniz. " " semanas.");
 	        }else{
-	            return ("Tebrikler!! " + w + "  Hafta 0 Günlük gebesiniz. ");
+	            return ("Estás embarazada de " + w + " semanas. (Semana " + (w+1) + ")");
 	        }
 	    }
 	    else{
-	        return("Tebrikler!  " + w + " Hafta  " + d + " Günlük gebesiniz. ");
+	        return("Estás embarazada de " + w + " semanas y " + d + " días. (Semana " + (w+1) + ")");
 	    }
 	}
+
 
 	function _render(status, statusli, w, d){
 	    status.text(writeStatus(w,d));
