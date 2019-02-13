@@ -1,0 +1,257 @@
+/*------------------------------------------------------------------
+[CSS Kod indeksi-onemli]
+1. wrapper: padding değerini temadan sil
+2. Üst Alan / #ustAlan
+2.1. Menü / #menu
+3. İçerik Alanı / #icerik
+3.1. Sol Kolon / #solKolon
+3.2. Sidebar / #yanKolon
+3.2.1. RSS / #rss
+3.2.2. Arama / #arama
+3.2.3. Kutular / .kutu
+4. Alt Alan / #altAlan
+-------------------------------------------------------------------*/
+
+
+
+.pc-top{display:none}
+@media only screen and (min-width:505px){
+.pc-top{display: block;
+	text-align: center!important;
+	margin:15px 0!important;
+	background-color: #FFFFFF;
+	}
+}
+
+
+.mobil-320{display:none}
+
+@media only screen and (max-width:500px){
+.mobil-320{display: block;
+	text-align: center!important;
+	margin:15px 0!important;
+	background-color: #FFFFFF;
+	}
+}
+
+
+
+#header{
+   
+    box-shadow: 0 0 5px #bbb;
+    position: relative;
+}
+.blog-posts {
+   
+    box-shadow: 0 0 5px #bbb;
+    position: relative;
+}
+
+
+
+.post-body-inner {
+    color: #2c3e50;
+    line-height: 1.7;
+    overflow: hidden;
+    padding: 0;
+  
+}
+
+
+.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; height: auto; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
+
+.wrapper {
+	padding: 1px 0px 1px 0px;
+}
+
+}
+.entry-content h3 {
+    padding-bottom: .3rem;
+    border-bottom: 1px solid rgba(0,0,0,.1);
+    color: #9e1c41;
+}
+
+
+.blog-posts{
+    background-color: #ffffff;
+        padding: 5px 10px 5px 10px;
+}
+
+.post-feature-image-wrapper img{
+    max-height: 400px;
+}
+
+
+.post-body-inner{
+        padding: 0px 10px 0px 10px;
+}
+
+
+h1.post-title{
+    margin: 30px 0 20px 0;
+    border-bottom: 2px solid #ddd;
+    padding: 0 0 10px 0;
+   
+}
+
+
+@media only screen and (max-width : 499px) { 
+ .post-body-inner{
+        padding: 0px 1px 0px 1px;
+}
+
+
+
+.post-body h2, .post-body h3, .post-body h4 {
+        font-weight: bold;
+    	 font-size: 18px;
+	color: #9e1c41;
+    }
+
+.post-breadcrumb {
+display: none;
+}	
+	
+.post-meta-wrapper{
+display: none;
+}	
+	
+.post-feature-image-caption{
+display: none;
+}		
+	
+.post-body-inner {
+    
+    font-size: 1.01111111111111112rem;
+   
+}	
+	
+	
+
+	
+	
+  }
+
+
+
+
+
+
+.entry-content h3 {
+    padding-bottom: .3rem;
+    border-bottom: 1px solid rgba(0,0,0,.1);
+    color: #9e1c41;
+}
+
+
+.entry-content h2 {
+    padding-bottom: .3rem;
+    border-bottom: 1px solid rgba(0,0,0,.1);
+    color: #9e1c41;
+}
+
+
+
+.isa_info, .isa_success, .isa_warning, .isa_error {
+margin: 10px 0px;
+padding:12px;
+ 
+}
+.isa_info {
+    color: #00529B;
+    background-color: #BDE5F8;
+}
+.isa_success {
+    color: #4F8A10;
+    background-color: #DFF2BF;
+}
+.isa_warning {
+    color: #9F6000;
+    background-color: #FEEFB3;
+}
+.isa_error {
+    color: #D8000C;
+    background-color: #FFD2D2;
+}
+.isa_info i, .isa_success i, .isa_warning i, .isa_error i {
+    margin:10px 22px;
+    font-size:2em;
+    vertical-align:middle;
+}
+
+
+
+
+
+
+.my-notify-info, .my-notify-success, .my-notify-warning, .my-notify-error {
+    padding:10px;
+    margin:10px 0;
+ 
+}
+.my-notify-info:before, .my-notify-success:before, .my-notify-warning:before, .my-notify-
+
+error:before {
+    font-family:FontAwesome;
+    font-style:normal;
+    font-weight:400;
+    speak:none;
+    display:inline-block;
+    text-decoration:inherit;
+    width:1em;
+    margin-right:.2em;
+    text-align:center;
+    font-variant:normal;
+    text-transform:none;
+    line-height:1em;
+    margin-left:.2em;
+    -webkit-font-smoothing:antialiased;
+    -moz-osx-font-smoothing:grayscale
+}
+.my-notify-info:before {
+    content:"\f05a";
+}
+.my-notify-success:before {
+    content:'\f00c';
+}
+.my-notify-warning:before {
+    content:'\f071';
+}
+.my-notify-error:before {
+    content:'\f057';
+}
+.my-notify-info {
+    color: #00529B;
+    background-color: #BDE5F8;
+}
+.my-notify-success {
+    color: #4F8A10;
+    background-color: #DFF2BF;
+}
+.my-notify-warning {
+    color: #9F6000;
+    background-color: #FEEFB3;
+}
+.my-notify-error {
+    color: #D8000C;
+    background-color: #FFD2D2;
+}
+
+
+.w3-panel {
+padding: 0.01em 16px;
+margin-top: 16px!important;
+margin-bottom: 16px!important;
+}
+.w3-note {
+background-color: #ffffcc;
+border-left: 6px solid #ffeb3b;
+}
+.danger {
+background-color: #c7f0fd;
+border-left: 7px solid #1ea9d4;
+padding: 12px;
+}
+.danger a {
+color:#fa6644;
+}
