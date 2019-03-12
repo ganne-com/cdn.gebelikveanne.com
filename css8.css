@@ -54,6 +54,12 @@ h1.post-title{
 
 
 
+.post-body h1, .post-body h2, .post-body h3, .post-body h4, .post-body h5, .post-body h6 {
+    padding-bottom: .3rem;
+    border-bottom: 1px solid rgba(0,0,0,.1);
+    color: #9e1c41;
+}
+
 
 
 .entry-content h3 {
