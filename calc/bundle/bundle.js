@@ -429,7 +429,7 @@ function born(recommend, recommendli, w, d){
 	         cw.colourweeks(0, week);
 	     }
 		  if (w == 7){
-	         recommend.text("Haftanız Hakkında Kısa Bilgi: Bu hafta itibari ile bebeğinizin boyu 13 mm, kilosu ise 1 gram oldu. Bebeğiniz bu hali ile tam bir çekirdek tanesi kadar oldu. 1 ay 26 günlük oldunuz. El ve ayak tomurcukları artık perdeli yapılar halinde dönüştü. Yani el ve ayakları oluşmaya başladı denilebilir. Bacakları, eklemler, diyafram, diş taslakları oluşmaya başladı. Beyinde sinir üretimi başlıyor. Kulak kepçesi, ağız, üst dudak ve damak oluşumları başlamıştır. Yine bu haftada kalp atımı ultrasonla görüntülenebilir. ");
+	         recommend.text("Haftanız Hakkında Kısa Bilgi: Bu hafta itibari ile bebeğinizin boyu 9 mm, kilosu ise 0,4 gram oldu. Bebeğiniz bu hali ile tam bir çekirdek tanesi kadar oldu. 1 ay 26 günlük oldunuz. El ve ayak tomurcukları artık perdeli yapılar halinde dönüştü. Yani el ve ayakları oluşmaya başladı denilebilir. Bacakları, eklemler, diyafram, diş taslakları oluşmaya başladı. Beyinde sinir üretimi başlıyor. Kulak kepçesi, ağız, üst dudak ve damak oluşumları başlamıştır. Yine bu haftada kalp atımı ultrasonla görüntülenebilir. ");
 	         recommendli.show();
 	         cw.colourweeks(0, week);
 	     }
